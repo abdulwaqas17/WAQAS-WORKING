@@ -1,0 +1,85 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+    text-align: center;  
+}
+.main{
+    background-color: gainsboro;
+    width: 300px;
+    height: 600px;
+    margin: 70px auto;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+}
+
+.red{
+    background-color: red;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+.green{
+    background-color: green;
+    position: absolute; 
+    /* top: 0; */
+    /* left: 0; */
+    right: 0;
+    bottom: 0px;
+    top: 100px;
+    left: 0;
+    
+
+}
+
+.blue{
+    background-color: blue;
+    position: fixed;
+    right: 50px;
+    top: 500px;
+    
+}
+
+.purple{
+    background-color: purple;
+    position: sticky;
+    top:50px;
+}
+
+.scroll{
+    height: 300vh;
+}
+
+.nav{
+    background-color: rgb(156, 190, 212);
+    position: sticky;
+    top:0px;
+    /* height: 80px; */
+
+}
+
+.nav li{
+    display: inline-block;
+    margin:30px 20px;
+
+}
+
+.nav ul{
+      text-align: center;
+}
+
+.para{
+    color: white;
+    font-size: 1.8rem;
+    /* height: 500px; */
+    /* width: 500px; */
+    /* overflow: scroll; */
+    /* overflow: auto; */
+    /* border: 2px solid red; */
+}

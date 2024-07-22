@@ -1,0 +1,33 @@
+/* By Dafualt Thing
+html{
+     font-size: 1em;
+} */
+
+
+body{
+    font-size: 2em;
+    background-color: black;
+}
+
+main{
+    font-size: 2em;
+}
+
+       /* rem */
+
+h1{
+    color: white;
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 30px;
+}
+
+
+       /* em */
+
+p{
+    color: white;
+    font-size: 2em;
+}

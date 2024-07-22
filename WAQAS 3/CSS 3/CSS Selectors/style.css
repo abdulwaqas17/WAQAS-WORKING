@@ -1,0 +1,56 @@
+*{
+    font-family:  Arial;
+}
+
+h1{
+    font-family: fantasy;
+    color: blue;
+    background-color: #f5e724;
+}
+
+.pink{
+    background-color: rgb(226, 62, 89);
+    color: aliceblue;
+}
+
+.purple{
+    background-color: blueviolet;
+}
+
+/* NESTING */
+#green>span{
+    color: rgb(241, 219, 13);
+    background-color: black;
+}
+
+p>span{
+    color: rgb(68, 255, 11);
+    background-color: black;
+
+}
+
+/* !IMORTANT */
+h3{
+    background-color: rgb(11, 61, 18) !important;
+    color: rgb(36, 252, 8) ;
+    /* color: rgb(36, 252, 8) !important; */
+}
+
+.brown{
+    color: rgba(70, 20, 20, 0.932);
+    font-weight: 800;
+    background-color: wheat;
+}
+
+p{
+    background-color: rgb(58, 52, 52);
+    color: aliceblue;
+}
+
+/* GROPING */
+
+h2,h3,h4{
+    color: #f5e724;
+    background-color: blue;
+}
+

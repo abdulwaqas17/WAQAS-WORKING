@@ -1,0 +1,20 @@
+
+button{
+    display: block;
+}
+div{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 20px;
+    /* display: inline; */
+    display: inline-block;
+}
+h3{
+    color: red;
+}
+#box{
+    /* display:none; */
+    /* visibility: hidden; */
+    display: inline-block;
+}

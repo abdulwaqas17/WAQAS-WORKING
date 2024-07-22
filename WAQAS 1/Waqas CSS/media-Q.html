@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #f50a0a;
+        }
+        
+        /* max-widht/height likhnay k lien decreasing order use kro */
+        
+        @media (max-width: 400px) {
+            body{
+                background-color: #27ec0d;
+            }
+         }
+        
+         /* means=less than,upto 200px */
+         @media (max-width: 200px) {
+            body{
+                background-color: goldenrod;
+            }
+         }
+
+         
+
+        @media (min-width: 600px) {
+            body{
+                background-color: #e44185;
+            }
+         }
+
+         /* means=starting from 800px */
+         @media (min-width: 800) {
+            body{
+                background-color: rgb(32, 165, 218);
+            }
+         }
+
+
+            /* Method 1 */
+         @media (min-width: 800) and (max-width: 1000px) {
+            body{
+                background-color: rgb(40, 5, 168);
+            }
+         }
+
+         /* Method 2 but same */
+         @media (800px <= width <= 1000px) {
+            body{
+                background-color: rgb(40, 5, 168);
+            }
+         }
+        
+         
+
+/* 
+        @media (orientation:portrait ) {  
+            body{
+                background-color: #5a063e;
+            }
+        } */
+        /* jab height widht sy bari ho jay */
+
+    </style>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,td,th{
+            border: 2px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            
+        }
+        table{
+            width: 60%;
+            height: 50vh;
+           
+            
+            
+        }
+        div{
+            width: 100%;
+           
+    
+          
+        }
+        #one{
+            height: 50px;
+            font-family:  'Arial Narrow Bold', sans-serif;
+            background-color: aqua;
+        }
+        #two{
+            background-color: rgb(255, 0, 221);
+            font-weight: 1000;
+            font-style: italic;
+        }
+        #mr{
+            background-color: #f00f0f;
+            font-size: 2rem;
+        }
+        #sa{
+            text-decoration: underline;
+            text-decoration:wavy;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <table>
+        <caption>My Favourite Cricketers</caption>
+        
+        <colgroup>
+            <col style="background-color: rgb(72, 160, 112);">
+            <col style="background-color: rgb(11, 114, 17);">
+            <col>
+            <col style="background-color: rgb(81, 175, 78);">
+            <col style="background-color: rgb(9, 102, 37);">
+            
+        </colgroup>
+
+        <thead>
+            <tr id="one">
+                <th>Captain</th>
+
+                <th>Batsman</th>
+            
+                <th>Wicket-Keepers</th>
+            
+                <th>All-Rounders</th>
+            
+                <th>Bowlers</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td id="sa" rowspan="5">Shahid Afridi</td>
+                
+            </tr>
+            
+            <tr>
+                <td>Babar Azam</td>
+                <td>S Ahmed</td>
+                <td>Imad Wasim</td>
+                <td>M Amir</td>
+            </tr>
+            
+            <tr>
+                <td colspan="2" id="mr">M Rizwan </td>
+                <td>S Khan</td>
+                <td>Shaheen </td>
+                
+
+            </tr>
+
+            <tr>
+                <td>Saim Ayub</td>
+                <td>M Haris</td>
+                <td>A Jamal</td>
+                <td rowspan="2" id="two">Naseen Shah</td>
+            </tr>
+
+            <tr>
+                <td>A Shafiq</td>
+                <td>Azam Khan</td>
+                <td>Agah Salman</td>
+                
+            </tr>
+
+
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

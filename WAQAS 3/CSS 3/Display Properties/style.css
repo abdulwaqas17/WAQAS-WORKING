@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid blue;
+}
+
+span{
+    
+    width: 200px;
+    height: 100px;
+    
+}
+
+p{
+    display: inline;
+ 
+    margin: 50px;
+    
+}
+
+img{
+    width: 300px;
+    display: block;
+}

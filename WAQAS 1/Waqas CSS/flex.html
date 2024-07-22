@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            width: 95vw;
+            height: 50vh;
+            border: 4px solid black;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .box{
+            width: 70px;
+            height: 40px;
+            border: 2px solid rebeccapurple;
+        }
+
+        #box-3{
+            order: 1;
+        }
+        #box-2{
+            order: 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box-1">box-1</div>
+        <div class="box" id="box-2">box-2</div>
+        <div class="box" id="box-3">box-3</div>
+        <div class="box" id="box-4">box-4</div>
+        <div class="box" id="box-5">box-5</div>
+        <div class="box" id="box-6">box-6</div>
+    </div>
+
+    <h2>Order=jis ka order sab sy ziyada hoga Wo sab sy End may aye ga,By Dafault Elements Ka Order (0) hota h</h2>
+</body>
+</html>

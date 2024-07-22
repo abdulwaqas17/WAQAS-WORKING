@@ -1,0 +1,54 @@
+body{
+    background-color: #383737;
+}
+#div{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 10px;
+    /* border-radius: 50%; */
+    background-color: #34f51a;
+    /* animation-name: colors; */
+    /* animation-duration: 2s;
+    animation-delay: 0s; */
+    /* animation-timing-function: steps(3); */
+    /* animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-direction: reverse;
+    animation-direction: alternate;
+    animation-direction: alternate-reverse; */
+    animation: colors 3s ease-in 0s 4 alternate ;
+}
+@keyframes colors{
+    /* from{background-color: #e6f51a;}
+    to{background-color: #f82a06;} */
+    from{left:10px;
+        background-color: #34f51a;
+        color: #000;
+        }
+    to{left:270px;
+        background-color: #2009f3;
+        color: antiquewhite;
+    }
+}
+#div2{
+    width: 300px;
+    height: 300px;
+    animation: positions 2s ease-out 1s 10 alternate-reverse;
+    position: absolute;
+    top: 350px;
+}
+@keyframes positions{
+    0%{left:10px;
+        background-color: #34f51a;
+        color: #000;
+        }
+    50%{left:270px;
+        background-color: #f33809;
+        color: antiquewhite;
+}
+    100%{left:270px;
+        background-color: #2009f3;
+        color: rgb(11, 235, 243);
+}
+}

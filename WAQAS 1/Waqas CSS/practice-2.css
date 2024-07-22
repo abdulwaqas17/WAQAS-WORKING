@@ -1,0 +1,18 @@
+#six{
+    line-height: 6px;
+}
+#sixty{
+    line-height: 6opx;
+}
+#sixteen{
+    line-height: 16px;
+}
+#capitalize{
+    text-transform: capitalize;
+}
+#lower{
+    text-transform:lowercase;
+}
+#upper{
+    text-transform:uppercase;
+}

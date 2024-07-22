@@ -1,0 +1,40 @@
+BODY{
+    background-color: #383737;
+}
+H5{
+    background-color: red;
+    color: azure;
+}
+
+
+div{
+    width: 200px;
+    height: 200px;
+    background-color: #1620aa;
+    color: antiquewhite;
+    position: absolute;
+    top: 346px;
+    left: 550px;
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function:ease-in;
+    transition-delay: 2s; */
+    /* transition: background-color 5s steps(4) 5s;
+    transition: font-size 2s steps(3) 2s; */
+    /* transform: rotate(90deg); */
+    transition: all 2s ease-in-out;
+}
+div:hover{
+    /* background-color: #e21212;
+    font-size: 35px;
+    transform: scaleY(2); */
+    /* transform: translate(80px); */
+    transform: skew(180deg);
+    
+}
+div:active{
+    /* background-color: #13cf0c;
+    font-size: 55px; */
+    /* transform: rotate(180deg); */
+   
+}

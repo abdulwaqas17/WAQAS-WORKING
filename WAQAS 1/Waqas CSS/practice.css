@@ -1,0 +1,73 @@
+p{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+#one{
+    text-decoration:blue wavy underline;
+}
+a{
+    text-decoration: none;
+}
+.solid{
+    text-decoration: underline yellow solid;
+}
+.blink{
+    text-decoration:blink purple;
+}
+.over-under{
+    text-decoration: overline underline orangered;
+}
+.normal{
+    font-weight: normal;
+}
+.bold{
+    font-weight: bold;
+}
+.bolder{
+    font-weight: bolder;
+}
+.lighter{
+    font-weight: lighter;
+}
+#N9{
+    font-weight: 900;
+}
+#S6{
+    font-weight: 600;
+}
+#F4{
+    font-weight: 400;
+}
+#T2{
+    font-weight: 200;
+}
+#A{
+    font-family: Arial;
+}
+#B{
+    font-family: 'Segoe UI';
+}
+#C{
+    font-family: Impact;
+}
+#D{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#Ten{
+    font-size: 10px;
+}
+
+#Twenty{
+    font-size: 20px;
+}
+#fivty{
+    font-size: 50px;
+}
+#imp{
+    text-align: center;color: red;font-size: 35px;
+}
+
+
+

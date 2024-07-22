@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        *{
+            font-family:  Helvetica, sans-serif;
+        }
+        li{
+            font-size: 22px;
+           
+        }
+
+        ul{
+            margin-bottom: 20px;
+           
+        }
+
+        h1,h2,h3{
+            color: blue;
+        }
+
+        span{
+            background-color: yellow;
+        }
+
+        p{
+            font-size: 25px;
+            font-family: 800;
+            font-family: Impact;
+            background-color: rgb(66, 13, 13);
+            color: wheat;
+            text-align: center;
+        }
+
+        #Unique{
+            color: rgb(66, 13, 13);
+            background-color: wheat;
+            font-size: 25px;
+            font-family: serif;
+
+        }
+    
+    </style>
+</head>
+
+<body>
+    <h1>Priority Order</h1>
+    <h1>ICE</h1>
+    <h2>ID > Class > Element</h2>
+    <h3>(More specific, More Priority)</h3>
+    <h3>(<span> If two Selectors are Same Specificity,THEN Cascading FOLLOW;
+        Otherwise  ABOVE Rule FOLLOW MUST </span>)</h3>
+
+    <ul>
+        <li>Element Selector</li>
+        <ul>
+            <li>body</li>
+            <li>p</li>
+            <li>div</li>
+            <li>h2</li>
+        </ul>
+
+        <li>Class Selector</li>
+        <ul>
+            <li>.red</li>
+            <li>.border</li>
+            <li>.highlight</li>
+        </ul>
+
+        <li>ID Selector</li>
+        <ul>
+            <li>#blue</li>
+            <li>#unique</li>
+            <li>#container</li>
+        </ul>
+
+        <li>Universal Selector</li>
+        <ul>
+            <li>(*)</li>
+        </ul>
+
+        <li>Grouping</li>
+        <ul>
+            <li>#blue ,#unique ,#container</li>
+        </ul>
+
+        <li>Nesting</li>
+        <ul>
+            <li>#blue>p>span</li>
+        </ul>
+
+        <li>!important</li>
+        <ul>
+            <li>not recommended</li>
+        </ul>
+
+    </ul>
+
+    
+
+    
+
+    <p>Advice: 
+        In CSS uses of classes is recommended,ID use only for Unique One's
+     </p>
+
+     <span id="Unique">If any Query Watch Coding Shuttle Css Video</span>
+
+</body>
+
+</html>

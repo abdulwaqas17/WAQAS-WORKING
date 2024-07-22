@@ -1,0 +1,227 @@
+
+@media screen and (max-width:991px) {
+
+    h3{
+
+        font-size: 1.2rem;
+        
+    }
+
+    .navbar{
+
+        overflow: initial;
+
+
+    }
+
+    .nav-toggle{
+
+        display: block;
+
+        margin-right: 20px;
+    }
+
+    .nav-links{
+
+        position: absolute;
+
+        background-color: white;
+
+        left: -100%;
+
+        top: 100%;
+
+        width: 100%;
+
+        padding-block: 20px;
+
+        transition: 0.2s ease-in-out;
+    }
+
+    .nav-links.active{
+
+        left: 0;
+
+    }
+
+    .nav-links ul{
+
+        flex-direction: column;
+    }
+
+    .example-cards{
+
+        gap: 20px;
+    }
+
+    .example-card{
+
+        width: calc(50% - 10px)  ;
+
+        height: 180px;
+
+    }
+
+    .get-start{
+
+        padding-block: 80px;
+    }
+
+    .big-panel-content{
+
+        flex-direction: column-reverse;
+
+
+    }
+
+    
+    .big-panel-box-right img{
+
+        width: 60%;
+
+        margin-bottom: 20px;
+
+        
+        
+    } 
+
+    .big-panel-box {
+
+
+        text-align: center;
+
+    }
+
+    .big-panel-box-left-button{
+
+        flex-direction: column;
+    }
+
+    
+    .big-panel-box-left-button span{
+
+        margin-block: 20px 5px;
+
+    }
+
+    
+
+
+    
+}
+
+
+@media screen and (max-width: 767px) {
+    
+    .primary-button{
+
+        width: 100%;
+
+        text-align: center;
+
+    }
+    .mid-banner-content{
+
+        flex-direction: column-reverse;
+    }
+
+    
+    .mid-banner-left{
+
+        max-width: 100vw;
+
+        text-align: center;
+
+    }
+
+
+    .feature-box{
+
+        min-width: calc(50% - 15px);
+    }
+
+    .big-feature-content,.big-feature-content:nth-child(2){
+
+        flex-direction: column;
+
+        text-align: center;
+    }
+
+
+    .discription-content{
+
+        flex-direction: column;
+
+        gap: 40px;
+
+        align-items: center;
+
+        text-align: center;
+    }
+
+    
+    .column-links{
+
+        align-items: stretch;
+    }
+
+    .big-panel-box-left-ul{
+
+        flex-direction: column;
+
+        gap: 0;
+
+        align-items:center;
+        
+
+        
+    }
+
+
+    .big-panel-box-left-ul li{
+
+        padding-bottom: 5px;
+    }
+
+
+    
+}
+
+@media screen and (max-width:479px) {
+
+    :root{
+
+        --padding-inline-section: 10px;
+
+    }
+
+    h1{
+
+        font-size: 2rem;
+        
+    }
+
+    h2{
+
+        font-size: 1.5rem;
+
+    }
+
+    p{
+
+        font-size: 1rem;
+
+    }
+
+
+    .feature-box{
+
+        min-width: 100%;
+    }    
+
+    .example-card{
+
+        width: 100%;
+    }
+    
+}

@@ -1,0 +1,134 @@
+*{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    box-sizing: border-box;
+
+    padding: 0;
+
+    margin: 0;
+
+    color: white;
+}
+
+body{
+
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh2UHKmMeclBHaICiN_8VzjZeOqWa55QU0nw&s);
+
+    background-size: cover;
+
+}
+
+/* Styling of box */
+
+.box{
+
+    background-color: rgba(255, 255, 255, 0.089);
+
+    border: 1px solid rgba(255, 255, 255, 0.671);
+
+    width: 25%;
+
+    margin:100px auto;
+
+    padding: 5px 20px;
+
+    border-radius: 4px;
+
+    backdrop-filter: blur(9px);
+
+    box-shadow: 2px 2px 5px rgb(19, 19, 19);
+}
+
+/* Styling of Header */
+
+header{
+
+    margin-bottom: 20px;
+    
+}
+
+h1{
+    text-align: center;
+
+    padding:10px 0;
+}
+
+
+/* Styling of Main */
+
+.information .input{
+
+    margin-bottom: 40px;
+}
+
+.information .input input{
+
+    border: none;
+
+    color: rgb(250, 247, 247);
+
+    background: none;
+
+    border-bottom: 2px solid rgb(238, 236, 236);
+
+    width: 100%;
+
+    font-size: 1rem;
+
+    padding-bottom: 10px;
+}
+
+::placeholder{
+    color: white;
+}
+
+.information input[type="submit"]{
+
+    
+    margin-top: 40px;
+
+    font-weight: 700;
+
+    background-color: white;
+
+    color: black;
+
+    padding:10px 0;
+
+    border: none;
+
+}
+
+.information span{
+
+    font-size: 0.95rem;
+
+}
+
+.check{
+
+    margin-right: 30px;
+}
+
+.text a{
+
+    text-decoration: none;
+    
+}
+
+
+/* Styling of Footer */
+
+.last{
+
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+.last a{
+
+    text-decoration: none;
+
+}

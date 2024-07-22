@@ -1,0 +1,69 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: #ecf006;
+    border: 2px solid black;
+    display: inline-block;
+}
+#b1{
+    position: static;
+    top: 50px;
+}
+#b2{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+#b3{
+    position: absolute;
+    top: 400px;
+    left: 20px;
+}
+#b4{
+    position: fixed;
+    top: 0;
+    /* bottom: 0;
+    width: 100vw; */
+}
+#b5{
+    position: sticky;
+    top:0px;
+    left: 290px;
+}
+#one{
+    background-color: #255966;
+    position: relative;
+    z-index: -1;
+}
+#two{
+    background-color: #67cf52;
+    position: relative;
+    left: -20px;
+    top: -10px;
+    z-index: -3;
+}
+body{
+    background-image: url(flower-2.jpg.jpg);
+    background-size: cover;
+}
+#A{
+    background-image: url(flower-1.jpg.jpg);
+    background-size: cover;
+}
+#B{
+    background-image: url(flower-2.jpg.jpg);
+    background-size: cover;
+}
+#C{
+    background-image: url(flower-3.jpg.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#D{
+    background-image: url(flower-4.jpg.jpg);
+    background-size:cover;
+    /* auto ko usually use nhe krtay */
+}
+
+
+

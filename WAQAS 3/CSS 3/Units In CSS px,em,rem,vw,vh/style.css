@@ -1,0 +1,47 @@
+body{
+    color: aliceblue;
+    background-color: rgb(35, 37, 37);
+}
+
+h2{
+    color: yellow;
+}
+
+h3{
+    color: rgb(177, 101, 3);
+}
+
+           /* [%] */
+
+/* Yahn Main Ka Parent Body Hay */
+main{
+    border:5px solid blue ;
+    width: 50%;
+}
+
+section{
+    border: 5px dashed red;
+    width: 50%;
+}
+
+
+         /* [vw,vh] */
+
+#one{
+    margin-top: 50px;
+    width: 80vw;
+    height: 100vh;
+}
+
+#oneka{
+    width: 200vw;
+    height: 200vh;
+}
+
+
+       /* [px] */
+
+#pixel{
+    font-size: 50px;
+    color: yellow;
+}       
