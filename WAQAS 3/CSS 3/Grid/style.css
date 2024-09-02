@@ -1,0 +1,93 @@
+*{
+
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Start Style for grid */
+.grid{
+
+    border: 2px solid red;
+    display: grid;
+    gap: 10px 20px;
+    height: 100vh;
+    grid-template-areas: "hdr hdr hdr hdr"
+                          "L-side main main main"
+                          "L-side main main main"
+                          "ft ft ft ft";
+    /* grid-template-columns: 25% 20% 25% 20%;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 200px 1fr;
+    grid-template-columns: 200px auto; */
+    /* grid-template-columns: 200px 300px 200px;
+    grid-template-rows: 90px 90px 90px;
+    grid-auto-rows: 100px; */
+    /* justify-content: space-between;
+    justify-content: space-around; */
+    /* justify-content: center; */
+    /* align-content: end;
+    align-content: space-between; */
+    /* align-content: center; */
+    
+    /* align-items: start; */
+    
+}
+
+/* Start Style for box */
+.box{
+
+    border: 2px solid green;
+    padding: 12px;
+
+}
+
+
+/* Start Style for #box-$ */
+/* #box-1{
+
+    justify-self: center;
+    align-self: center;
+}
+
+#box-10{
+
+    justify-self: end;
+    align-self: end;
+} */
+
+
+#box-1{
+
+    background-color: rgb(54, 179, 211);  
+    grid-area: hdr;  
+    /* grid-column-start: 1;
+    grid-column-end: 3;
+    grid-column: 1 / 4;
+    grid-column: 1 / span 3; */
+
+}
+
+#box-2{
+
+    background-color: #025aa1;
+    grid-area: L-side;
+    
+}
+
+#box-3{
+
+    background-color: #1ff8f8;
+    grid-area: main;
+
+}
+
+#box-4{
+
+    background-color: rgb(49, 6, 243);
+    grid-area: ft;
+    /* grid-column: 3;
+    grid-row: 2 / span 3; */
+}
+

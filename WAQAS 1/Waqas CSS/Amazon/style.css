@@ -1,5 +1,5 @@
 /* Margin Aur border Ki Alag Sy Property Likh Kr Dev Ki Classes May Dal Di Hen In acHtml Tags, For Appling Border and Margin */
-
+/* 
 @media (max-width:500px){
     .shop-section{
         flex-wrap: wrap;
@@ -11,21 +11,27 @@
        height: 250px;
     }
 }
-
+ */
 
 *{
     margin: 0;
     font-family: Arial;
     box-sizing: border-box;
 }
+
+.final{
+
+    overflow: hidden;
+}
 .navbar{
     grid-row: 1/2;
     background-color: #0f1111;
     color: white;
-    height: 60px;
+    height: 70px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    padding-block: 20px;
 }
 
 /* BOX 1 */
@@ -36,7 +42,7 @@
 }
 
 .logo{
-    background-image: url(f-logo-removebg-preview.png);
+    background-image: url(./assets/f-logo-removebg-preview.png);
     background-size: cover;
     height: 50px;
     width: 100%;
@@ -185,7 +191,7 @@ span{
 
 .panel{
 grid-row: 2/3;
-height: 40px;
+height: 60px;
 background-color: #222f3d;
 color: white;
 display: flex;
@@ -220,6 +226,7 @@ padding-right: 9px;
 
 /* BOX 3 */
 
+
 .panel-options{
     display: flex;
     align-items: center;
@@ -246,7 +253,7 @@ padding-right: 9px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    background-image: url(banner.jpg);
+    background-image: url(./assets/banner.jpg);
     height: 270px;
     background-size: cover;
 }
@@ -268,19 +275,25 @@ padding-right: 9px;
     font-weight: 500;
 }
 
+.hero-msg span{
+ 
+    font-size: 1rem;
+}
+
 
 /* SHOP SECTION */
 
 .shop-section{
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 30px;
     justify-content: space-evenly;
-    background-color: rgb(241, 205, 199);
+    background-color: rgb(246,210,198);
 }
 
 .box{
-    height: 400px;
-    width: 22.5%;
+    height: 410px;
+    /* width: 22.5%; */
     background-color: #fff;
     margin-top: 1rem;
     padding: 20px 0px 15px;
@@ -288,7 +301,9 @@ padding-right: 9px;
 
 .box1-img{
     height: 300px;
+    width: 270px;
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -297,20 +312,54 @@ padding-right: 9px;
 .box1-content{
     margin-left: 1rem;
     margin-right: 1rem;
+    margin-bottom: 10px;
 }
 
 .box1-content p{
+    display: inline-block;
     color: #1171f0;
+    font-weight: 600;
+    padding-block: 2px;
+    /* margin-block: 5px; */
+    position: relative;
+    cursor: pointer;
+    /* background-color: wheat; */
+}
+
+.box1-content p::before{
+
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #1171f0;
+    transition: all 0.5s ;
+    
     
 }
+
+.box1-content p:hover::before{
+
+    width: 100%;
+    
+}
+
+/* .box1-content p:hover{
+    color: #1171f0;
+    text-decoration: underline;
+    cursor: pointer;
+    
+} */
 
 /* FOOTER */
 
 /* foot-panel1 */
-
+/* 
 footer{
     margin-top: 15px;
-}
+} */
 
 .foot-panel1{
     height: 50px;
@@ -336,6 +385,13 @@ footer{
     justify-content: space-around;
     
 }
+
+
+.foot-panel2 ul{
+
+    padding:0;
+}
+
 
 ul p{
     font-weight: 700;
@@ -363,7 +419,7 @@ ul a{
 }
 
 .logo3{
-    background-image: url(f-logo-removebg-preview.png);
+    background-image: url(./assets/f-logo-removebg-preview.png);
     background-size: cover;
     height: 55px;
     width: 110px;

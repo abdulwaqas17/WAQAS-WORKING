@@ -1,0 +1,86 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 50px;
+}
+
+p{
+    text-indent: 30px;
+    line-height: 25px;
+}
+
+/* pseudo elements */
+
+.star::after{
+    content: "*";
+    color: red;
+    font-size: 20px;
+}
+
+.important::after{
+    content: "important";
+    background-color: red;
+    color: white;
+    padding: 5px;
+}
+
+p::first-line{
+    font-weight: 600;
+    
+}
+
+::selection{
+    background-color: black;
+    color: rgb(255, 255, 254);
+}
+
+h1::first-letter{
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.button{
+    padding: 10px;
+    color: aqua;
+    border-radius: 50px;
+    margin-top: 150px;
+}
+
+/* pseudo classes */
+
+.button:link {
+    color: blue;
+    background-color: yellow;
+}
+
+.button:visited {
+    color: yellow;
+    background-color: blue;
+}
+
+.button:hover {
+    color: white;
+    background-color: red;
+}
+
+.button:active {
+    color: white;
+    background-color: black;
+}
+
+/* list */
+
+ul li:first-child {
+    background-color: #bdf7f2;
+}
+
+ul li:last-child{
+    background-color: #d8affa;
+}
+
+ul li:nth-child(5){
+    background-color: #e9a0a0;
+}
+
+ul li:nth-child(3n){
+    background-color: #ace9a0;
+}

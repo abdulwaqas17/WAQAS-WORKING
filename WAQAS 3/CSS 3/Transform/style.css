@@ -1,0 +1,41 @@
+*{
+
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+.container{
+
+    background-color: tomato;
+    width: 400px;
+    height: 400px;
+    margin: 100px auto;
+
+}
+
+.box{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: teal;
+    width: 200px;
+    height: 200px;
+    font-size: 2rem;
+    font-weight: 700;
+    /* transform: scaleX(2);
+    transform: scaleY(2);
+    transform: scaleZ(2);
+    transform: scale(2 , 3); */
+    /* transform: skew(30deg , 60deg); */
+    /* transform: translate(50%,50%);
+    transform: translate(100%,50%); */
+    /* transform: rotate(45deg);
+    transform: rotateX(45deg);
+    transform: rotateY(45deg);
+    transform: rotateZ(45deg); */
+    /* transform: rotateZ(45deg) scale(1.2) skew(10deg) translate(50%,50%); */
+    
+}

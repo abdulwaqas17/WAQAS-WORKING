@@ -1,0 +1,90 @@
+*{
+
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+:root{
+
+    --primary-text-color:#222;
+    --secondary-text-color:#444;
+    --card-bg-color:white;
+    --bg-color:#dfdcdcee;
+    --pad-mar:20px;
+}
+
+.dark{
+
+    --primary-text-color:#fff;
+    --secondary-text-color:#ddd;
+    --card-bg-color:#333;
+    --bg-color:#111;
+
+}
+
+
+
+.container{
+
+    padding: 40px;
+    /* --color: gray; */
+    background-color: var(--bg-color);
+    min-height: 100vh;
+}
+
+h1{
+
+    text-align: center;
+    color: var(--primary-text-color);
+    /* background-color: var(--color , wheat); */
+}
+
+.box{
+
+    /* --color: gray; */
+    padding: var(--pad-mar);
+    background-color: var(--card-bg-color);
+    margin-block: var(--pad-mar);
+    border-radius: var(--pad-mar);
+    /* text-align: center; */
+}
+
+.box h2{
+
+    margin-bottom: var(--pad-mar);
+    /* background-color: var(--color); */
+    color: var(--primary-text-color);
+}
+
+p{
+
+    color: var(--secondary-text-color);
+}
+
+button{
+
+    background-color: white;
+    margin-block: 30px;
+}
+/* 
+.dark:hover .container{
+ 
+    --primary-text-color:#fff;
+    --secondary-text-color:#ddd;
+    --card-bg-color:#333;
+    --bg-color:#111;
+
+
+} */
+
+/* @media screen and (max-width:1024px) {
+
+    .container{
+
+        --color:wheat;
+
+    }
+    
+} */
